@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatiable" content="IE=edge">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Electric Store</title>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <section id="header">
+
+        <a href="#">
+            <img src="D:\E-Commerce website\Images\Logo.PNG" class="logo" alt="" height="80px" width="120px">
+        </a>
+
+        <div>
+            <ul id="navbar">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="shop.html">Shop</a>
+                </li>
+                <li>
+                    <a href="blog.html">Blog</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+                <li>
+                    <a class="active" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- home -->
+    <section id="back5">
+        <h2>#Lets Talk</h2>
+        <p>Leave a Message, We love to hear it from you..</p>
+    </section>
+
+    <section id="contact-details" class="section-p1">
+        <div class="details">
+            <span>GET IN TOUCH</span>
+            <h2>Visit our location or contact us today</h2>
+        <div>
+            <li>
+                <i class="fal fa-map"></i>
+                <p>Dulari, morang</p>
+            </li>
+            <li>
+                <i class="fal fa-envelope"></i>
+                <p>contact@ example</p>
+            </li>
+            <li>
+                <i class="fal fa-phone-alt"></i>
+                <p>Contact@ example</p>
+            </li>
+            <li>
+                <i class="fal fa-clock"></i>
+                <p>Sunday to Friday: 9:00 AM - 5:00PM</p>
+            </li>
+        </div>
+    </div>
+
+        <div class="map">
+            <iframe
+             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3565.7836557654896!2d87.29975911476738!3d26.655408483239082!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ef6ea070e7b18b%3A0x2959e2a3e2bf54e0!2z4KSH4KSf4KS54KSw4KWAIOCkheCkqOCljeCkpOCksOCljeCksOCkvuCkt-CljeCkn-CljeCksOCkv-CkryDgpJXgpLLgpYfgpJw!5e0!3m2!1sne!2snp!4v1642666196048!5m2!1sne!2snp"
+              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+            </iframe>
+        </div>
+    </section>
+
+    <!-- form -->
+    <section id="form-details">
+        <form onsubmit="return validate()" id="form" action="message.html" >
+            <span>LEAVE A MESSAGE</span>
+            <h2>We love to hear it from you</h2>
+            <input type="text" id="Fname" placeholder="Your Name">
+            <input type="text" id="E-adress" placeholder="E-mail">
+            <input type="text" id="Sub" placeholder="Subject">
+            <textarea name="" id="Msg" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <button class="normal">Submit</button>
+        </form>
+    </section>
+
+
+    <!-- Newsletter -->
+    <section id="newsLetter" class="section-p1 section-m1">
+        <div class="newsText">
+            <h4>Sign up for Newsletters</h4>
+            <p>Get E-mail updates about our latest product and <span>special offers.</span></p>
+        </div>
+        <div class="form">
+            <input type="email" id="email" name="" placeholder="Your email address">
+            <button onclick="return validEmail()" class="normal">Sign Up</button>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="D:\E-Commerce website\Images\Logo1.PNG" alt="" height="100px" width="180px">
+            <h4>Contact</h4>
+            <p> <strong>Address:</strong> Jutbikash, Itahari-1, sunsari </p>
+            <p> <strong>Phone: </strong> 9827368746 </p>
+            <p> <strong>Hours: </strong> 10:00 AM - 7PM , Mon - Fri </p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="about.html">About Us</a>
+            <a href="#">Privacy policy</a>
+            <a href="#">Terms and conditions</a>
+            <a href="#">Contact us</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="D:\E-Commerce website\Images\App store.jpg" alt="" height="50px" weight="50px">
+                <img src="D:\E-Commerce website\Images\Google pay.png" alt="" height="50px" weight="50px">
+            </div>
+            <p>Secure payment gateways</p>
+            <img src="D:\E-Commerce website\Images\pay.jpg" alt="" height="50px" weight="100%">
+        </div>
+
+        <div class="copyright">
+            <p>2022 - E-commerce website HTML CSS Template</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
